@@ -1,0 +1,71 @@
+﻿
+public class Analytics
+{
+  public string event_type { get; set; }
+  public string event_id { get; set; }
+  public string event_source { get; set; }
+  public string user_id { get; set; }
+  public string domain { get; set; }
+  public string freight_hostname { get; set; }
+  public string ip { get; set; }
+  public string day { get; set; }
+  public string chosen_locale { get; set; }
+  public string detected_locale { get; set; }
+  public bool user_is_authenticated { get; set; }
+  public string browser { get; set; }
+  public string device { get; set; }
+  public string cfduid { get; set; }
+  public string device_vendor_id { get; set; }
+  public string os { get; set; }
+  public string os_version { get; set; }
+  public string client_build_number { get; set; }
+  public string release_channel { get; set; }
+  public string client_version { get; set; }
+  public string city { get; set; }
+  public string country_code { get; set; }
+  public string region_code { get; set; }
+  public string time_zone { get; set; }
+  public string isp { get; set; }
+  public string message_id { get; set; }
+  public string channel { get; set; }
+  public string channel_type { get; set; }
+  public bool is_friend { get; set; }
+  public bool _private { get; set; }
+  public string server { get; set; }
+  public string num_attachments { get; set; }
+  public string max_attachment_size { get; set; }
+  public string length { get; set; }
+  public string word_count { get; set; }
+  public bool mention_everyone { get; set; }
+  public string emoji_unicode { get; set; }
+  public object emoji_custom { get; set; }
+  public object emoji_custom_external { get; set; }
+  public string emoji_managed { get; set; }
+  public string emoji_managed_external { get; set; }
+  // public int emoji_animated{get; set; }
+  public bool emoji_only { get; set;}
+  public string num_embeds { get; set; }
+  public object[] attachment_ids { get; set; }
+  public bool has_spoiler { get; set; }
+  public bool probably_has_markdown { get; set; }
+  public bool user_is_bot { get; set; }
+  public object[] sticker_ids { get; set; }
+  public object[] components { get; set; }
+  public object[] accepted_languages { get; set; }
+  public object[] accepted_languages_weighted { get; set; }
+  public object[] attachment_content_types { get; set; }
+  public object[] attachment_mimetypes { get; set; }
+  public object[] mention_role_ids { get; set; }
+  public object[] mutual_guild_ids { get; set; }
+  public object[] attachment_sizes { get; set; }
+  public object[] attachment_widths { get; set; }
+  public object[] attachment_heights { get; set; }
+  public object[] attachment_description_lengths { get; set; }
+  public DateTime _hour_pt { get; set; }
+  public DateTime _hour_utc { get; set; }
+  public DateTime _day_pt { get; set; }
+  public DateTime _day_utc { get; set; }
+  public string client_send_timestamp { get; set; }
+  public string client_track_timestamp { get; set; }
+  public string timestamp { get; set; }
+}
