@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscordAnalyser", "DiscordAnalyser\DiscordAnalyser.csproj", "{184DC149-9D3A-4EBE-8970-4FBC8B39C418}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscordVoiceAnalyser", "DiscordAnalyser\DiscordVoiceAnalyser.csproj", "{184DC149-9D3A-4EBE-8970-4FBC8B39C418}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
