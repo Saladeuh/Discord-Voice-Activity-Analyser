@@ -129,7 +129,8 @@ class Program
     Console.WriteLine("Placez votre dossier package dézippé dans le même dossier que ce programme. Quand c'est fait appuyez sur entrée");
     Console.ReadLine();
     Console.WriteLine("Analyse des fichiers...");
-    List<Analytics> analyticss = await JsonConverter<Analytics>(@"package/activity/analytics/events-2023-00000-of-00001.json");
+    var file=Directory.GetFiles("package/activity/analytics")[0];
+    List<Analytics> analyticss = await JsonConverter<Analytics>(file);
     string jsonString = File.ReadAllText(@"package/messages/index.json");
     var convs = JsonSerializer.Deserialize<Dictionary<string, string>>(jsonString);
     //WriteEveontsTypesFile(analyticss);
